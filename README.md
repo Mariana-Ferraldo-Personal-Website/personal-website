@@ -1,6 +1,6 @@
 # Portfolio Demo
-//
-First demo portfolio Grace Hopper.
+***
+First demo portfolio Grace Hopper Cohort 26-06-23.
 ***
 # Table of Contents
 1 - [Home](#general -info about me)
