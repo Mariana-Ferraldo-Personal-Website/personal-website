@@ -1,6 +1,8 @@
 /* body css */
 body {
     background-color: #fdfbf9;
+    margin: 5px;
+    
 }
 
 /* header link */
@@ -26,15 +28,31 @@ header {
     padding: 1px 1px 1px 1px;
 }
 
-main {
-    padding: 50px 50px 30px 50px;
-    color: #494949 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+    padding: 38px;
+    border-bottom: 1px solid #bbb;
     text-align: center;
     color: #494949;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #494949;
+}
+
+section {
+    margin: 40px;
+    padding: 8px 2px 8px 8px;
+    background-color: #ffe4ef;
+}
+
+.project {
+    width: 150px;
+    float: left;
+    padding: 5px 10px 2px 2px;
 }
