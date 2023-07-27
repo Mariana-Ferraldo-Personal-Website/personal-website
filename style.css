@@ -76,3 +76,40 @@ section {
     float: left;
     padding: 5px 10px 2px 2px;
 }
+
+
+/* Contact Me */
+
+.contactme {
+    background-color: #ff95b5;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.form {
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 880px;
+        height: 250px;
+        text-align: left;
+}
+
+.label {
+    display:block;
+    padding: 0;
+    width: 80%;
+}
+.name{
+    width: 200px;
+    display: block;
+      
+}
+.message {
+    height: 100px;
+    text-align: center;
+    
+}
