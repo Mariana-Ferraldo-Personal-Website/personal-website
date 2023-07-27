@@ -79,37 +79,37 @@ section {
 
 
 /* Contact Me */
-
-.contactme {
-    background-color: #ff95b5;
-    padding: 20px;
-    text-align: center;
-    margin: 40px;
-
+@media screen and (max-width: 992px) {
+.container {
+        display: flex;
+        flex-direction: row;
+        background-color: #ff95b5;
+        padding: 30px;
+        position: relative;
 }
 
-.form {
-    display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 0 auto;
-        max-width: 880px;
-        height: 250px;
-        text-align: left;
-}
-
-.label {
-    display:block;
-    padding: 0;
-    width: 80%;
-}
-.name{
-    width: 200px;
+.container label{
+    flex: none;
     display: block;
-      
+    width: 10px;
 }
-.message {
-    height: 100px;
-    text-align: center;
+
+.fname{
+    width: 250px;
+}
+.lname{
+    width: 250px;
+}
+.email{
+    width: 300px;
     
+}
+textarea{
+    width: 520px;
+    height: 200px;
+}
+button {
+    padding: 1;
+    min-width: 100px;
+}
 }
