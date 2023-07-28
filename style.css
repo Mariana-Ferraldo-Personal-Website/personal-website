@@ -43,6 +43,13 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    color: #494949;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .design {
     width: 150px;
     float: left;
@@ -69,6 +76,7 @@ section {
     margin: 40px;
     padding: 8px 2px 8px 8px;
     background-color: #ffe4ef;
+    border: 1px solid #bbb;;
 }
 
 .project {
@@ -79,7 +87,7 @@ section {
 
 
 /* Contact Me */
-@media screen and (max-width: 992px) {
+
 .container {
         display: flex;
         flex-direction: row;
@@ -101,7 +109,7 @@ section {
     width: 250px;
 }
 .email{
-    width: 300px;
+    width: 517px;
     
 }
 textarea{
@@ -112,4 +120,10 @@ button {
     padding: 1;
     min-width: 100px;
 }
+
+h5 {
+    background-color: #ff95b5;
+    color: #fdfbf9;
+    text-align: center;
+    text-size-adjust: 20px;
 }
